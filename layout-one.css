@@ -51,15 +51,13 @@ h2{
 } */
 
 
-  .column{
+  
+
+  @media screen and (min-width: 600px) {
+      .column {
       float: left;
       width: 30%;
       padding: 1em;
-  }
-
-  @media screen and (max-width: 600px) {
-      .column {
-          width: 90%;
       }
     }
 
@@ -128,10 +126,11 @@ h2{
 
     .menu a:hover {
         background-color : lightseagreen;
-    }
-    @media(min-width:800px){
-        .menu {
+    }*/
+
+
+    @media(max-width:360px){
+        .column {
             display: flex;
         }
     }
-} */
